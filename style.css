@@ -1,0 +1,182 @@
+/* UNIVERSAL */
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100vh;
+	width: 100vw;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 0px;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+p {
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.center-content {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	text-justify: center;
+}
+
+.main {
+	padding-top: 3%;
+	font-size: 200%;
+}
+
+.party {
+	padding-top: 6%;
+	font-size: 1000%;
+}
+
+.titl {
+	font-family: 'Press Start 2P', cursive;
+	-webkit-animation:colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+      0% {
+        color: #FF1952;
+      }
+      10% {
+        color: #E5164A;
+      }
+      20% {
+        color: #BF133D;
+      }
+      30% {
+        color: #7F0C29;
+      }
+      40% {
+        color: #400614;
+      }
+      50% {
+        color: #0C5872;
+      }
+      60% {
+        color: #0F7598;
+      }
+      70% {
+        color: #1289B2;
+      }
+      80% {
+        color: #1393BF;
+      }
+      90% {
+        color: #1AC4FE;
+      }
+      100% {
+        color: pink;
+      }
+    }
+
+.subtitle {
+	font-family: 'VT323', monospace;
+}
+
+.reg {
+	font-family: 'Source Code Pro', monospace;
+}
+
+/* INDEX */
+
+.row {
+	height: 20%;
+	width: 100%;
+}
+
+.options {
+	display: flex;
+	height: 60%;
+	width: 100%;
+}
+
+.choice {
+	height: 100%;
+	width: 50%;
+}
+
+/* VOTER & CANDIDATE PATH */
+
+.2 {
+	display: block;
+}
+
+.column {
+	height: 100%;
+	width: 40%;
+}
+
+.partisan {
+	height: 50%;
+	width: 100%;
+}
+
+.avatar {
+	height: 100%;
+	width: 20%;
+}
+
+/* CANDIDATE GAMEPLAY */
+
+.column2 {
+	display: block;
+	height: 100%;
+	width: 40%;
+}
+
+.column3 {
+	display: block;
+	height: 100%;
+	width: 60%;
+}
+
+.policy {
+	height: calc(100%/6);
+	width: 100%;
+}
+
+.progress {
+	height: calc(100%/8);
+	width: 100%;
+}
+
+.progress-bar {
+	margin-left: 5%;
+	height: 20%;
+	width: 90%;
+	background-color: #1289B2;
+}
+
+/* COLORS */
+
+.lightgreen {
+	background-color: #CCC014;
+}
+
+.green {
+	background-color: #B2A809;
+}
+
+.red {
+	background-color: #FF1952;
+}
+
+.blue {
+	background-color: #1289B2;
+}
